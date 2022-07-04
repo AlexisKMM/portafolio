@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="asset/img/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="asset/css/styles.css">
+
+    <title>Alexis Moreno - Home</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-logo">
+            <figure class="logo">
+                <img src="asset/img/logo.svg" alt="Alexis Moreno" width="150px">
+            </figure>
+        </nav>
+        <nav class="nav-coverPage">
+            <div class="nav-container">
+                <h3 data-aos="fade-down" data-aos-duration="1500" class="nav-coverPage-title">Desarrollando software que marcan la diferencia</h3>
+                <p data-aos="fade-down" data-aos-duration="1500" class="nav-coverPage-desc">Hola mi nombre es Alexis Moreno soy desarrollador de software, tengo experiencia con el lenguaje de programación python. Creando sistemas y automatizando procesos para mejorar la experiencia y el tiempo de las personas.</p>
+                <a data-aos="fade-up" data-aos-duration="1500" class="nav-button" href="#contact">Contactar</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section-services">
+            <h3 class="section-title">SERVICIOS</h3>
+            <div class="section-card-grid">
+                <div data-aos="fade-down" data-aos-delay="110" data-aos-duration="1000" class="card">Desarrollo de Aplicaciones Web</div>
+                <div data-aos="fade-down" data-aos-delay="110" data-aos-duration="1000" class="card">Web Scraping</div>
+                <div data-aos="fade-down" data-aos-delay="110" data-aos-duration="1000" class="card">API REST</div>
+                <div data-aos="fade-down" data-aos-delay="110" data-aos-duration="1000" class="card">Automatización de trabajo con python</div>
+            </div>
+        </section>
+        <section class="section-form" id="contact">
+            <h3 class="section-title" data-aos="fade-down" data-aos-delay="110" data-aos-duration="500">CONTACTAR</h3>
+            <form action="gracias.html" class="form" id="myForm" method="POST" data-aos="fade-down" data-aos-delay="110" data-aos-duration="500">
+                <label class="error-input" id="error-input">Ocurrio un error vuelva a intentarlo</label>
+                <input value="1" name="service" type="hidden">
+                <input name="name" class="form-input" type="text" placeholder="Nombre:" autocomplete= "off">
+                <input name="email" class="form-input" type="email" name="email" placeholder="Email:" autocomplete= "off">
+                <input name="telephone" class="form-input" type="text" placeholder="Teléfono:" autocomplete= "off">
+                <input name="message" class="form-input" type="text" placeholder="Mensaje:" autocomplete= "off">
+                <input class="form-button" type="submit" value="Contactar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <span>@Alexis Moreno</span>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
